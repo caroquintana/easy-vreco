@@ -1,2 +1,2 @@
-# easy-vreco
-Ejercicio Evaluado Geolocation
+# easy-bike
+Ejercicio guiado Geolocation
