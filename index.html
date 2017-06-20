@@ -11,20 +11,23 @@
 <body>
 	<section>
 		<div class="row">
-			<div class="col-md-12 col-sm-12">
-				<button id="encuentrame">Encuéntrame</button>
-				<label>Origen</label>
-				<input type="text" id="inputInicio" value="Holanda, Providencia, Chile" style="width: 200px" />
-				<label>Destino</label>
-				<input type="text" id="inputDestino" value="Puma 1180, Recoleta, Chile" style="width: 200px" />
+			<div class="col-md-12 col-sm-12 cajaprincipal">
+				
+				<div id="casillas">
+					<button id="encuentrame">Encuéntrame</button>
+					<label>Origen</label>
+					<input type="text" id="inputInicio" value="Holanda, Providencia, Chile" />
+					<label>Destino</label>
+					<input type="text" id="inputDestino" value="Puma 1180, Recoleta, Chile"/>
+				</div>
+				
 				<!-- <input type="button" value="Obtener Ruta" onclick="obteneRuta()" /> -->
 				<button id="dameruta" onclick="obteneRuta()">Obtener Ruta</button>
-			</div>
 			</div>
 		</div>
 		<div class="row">
 			<div class="col-md-12 col-sm-12" id="map">
-				<!-- Aquí irá nuestro mapa -->
+				<!-- Aquí va el mapa -->
 			</div>
 		</div>
 	</section>

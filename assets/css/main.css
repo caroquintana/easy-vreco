@@ -39,5 +39,9 @@ label{
 	display: block;
 }
 input{
-	width: 170px;
+	width: 220px;
+	height: 40px;
+}
+.cajaprincipal{
+	text-align: center;
 }
