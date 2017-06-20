@@ -6,22 +6,20 @@
 	<link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600" rel="stylesheet">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="assets/css/main.css">
-	<title>EasyBike</title>
+	<title>EasyBike VReco</title>
 </head>
 <body>
 	<section>
 		<div class="row">
-			<div class="col-md-12 col-sm-12 navmenu">
+			<div class="col-md-12 col-sm-12">
 				<button id="encuentrame">Encuéntrame</button>
-				<div class="casillas">
-					<label>Origen</label>
-					<input type="origen" name="origen" placeholder="Introduce una ubicacion">
-				</div>
-				<div class="casillas">
-					<label>Destino</label>
-					<input type="destino" name="destino" placeholder="Introduce una ubicacion">
-				</div>
-				<button id="ruta">Ruta</button>
+				<label>Origen</label>
+				<input type="text" id="inputInicio" value="Holanda, Providencia, Chile" style="width: 200px" />
+				<label>Destino</label>
+				<input type="text" id="inputDestino" value="Puma 1180, Recoleta, Chile" style="width: 200px" />
+				<!-- <input type="button" value="Obtener Ruta" onclick="obteneRuta()" /> -->
+				<button id="dameruta" onclick="obteneRuta()">Obtener Ruta</button>
+			</div>
 			</div>
 		</div>
 		<div class="row">
@@ -33,8 +31,10 @@
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <!-- Google Geolocation -->
+<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false&libraries=places"></script>
+<!-- 
 <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDUzs3W7F5-rGt2EZFqARQdzCI5QrZ1sGE&callback=initMap"
- type="text/javascript"></script>
+ type="text/javascript"></script> -->
  <!-- Bootstrap Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 <script type="text/javascript" src="assets/js/main.js"></script>
