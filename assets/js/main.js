@@ -42,7 +42,7 @@ google.maps.event.addDomListener(window, 'load', function () {
     directionsDisplay = new google.maps.DirectionsRenderer({ 'draggable': true });
 });
  
-function obteneRuta() {
+function obtenerRuta() {
     var santiago = new google.maps.LatLng(-33.4718999,-70.9100215);
     var mapOptions = {
         zoom: 7,

@@ -23,10 +23,25 @@ button{
 	margin-top: 27px;
 }
 
-button:hover, button:focus{
+button:hover, button:focus, .button:hover, .button:focus{
 	outline: 0;
 }
 
+input.button{
+	margin:15px auto;
+	padding: 10px 15px;
+	color: white;
+	background-color: #faae27;
+	border: 0;
+	font-weight: 700;
+	border-radius: 2px;
+	font-family: "Raleway";
+	font-size: 15px;
+	display: inline-block;
+	margin: 80px;
+	margin-bottom: 20px;
+	margin-top: 27px;
+}
 .navmenu{
 	text-align: center;
 }
